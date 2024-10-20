@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import necessary components
-import CTA from './Components/CTA/CTA';
+// import CTA from './Components/CTA/CTA';
 import Blog from './Components/Blog/Blog';
 import Process from './Components/Process/Process';
 import Hero from './Components/Hero/Hero';
@@ -22,7 +22,7 @@ const App = () => {
             <div>
               <Slider />
               <Hero />
-              <CTA />
+              {/* <CTA /> */}
               <Gallery />
               <Blog />
               <Process />
